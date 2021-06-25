@@ -1,0 +1,50 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) Autoconf/2.69-GCCcore-8.3.0         10) XZ/5.2.4-GCCcore-8.3.0
+  2) Automake/1.16.1-GCCcore-8.3.0       11) binutils/2.32-GCCcore-8.3.0
+  3) Autotools/20180311-GCCcore-8.3.0    12) bzip2/1.0.8-GCCcore-8.3.0
+  4) CMake/3.15.3-GCCcore-8.3.0          13) cURL/7.66.0-GCCcore-8.3.0
+  5) GCC/8.3.0                           14) libtool/2.4.6-GCCcore-8.3.0
+  6) GCCcore/8.3.0                       15) libxml2/2.9.9-GCCcore-8.3.0
+  7) M4/1.4.18-GCCcore-8.3.0             16) ncurses/6.1-GCCcore-8.3.0
+  8) PCRE/8.43-GCCcore-8.3.0             17) zlib/1.2.11-GCCcore-8.3.0
+  9) SWIG/4.0.1-GCCcore-8.3.0
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) Autoconf/2.69-GCCcore-8.3.0         10) XZ/5.2.4-GCCcore-8.3.0
+  2) Automake/1.16.1-GCCcore-8.3.0       11) binutils/2.32-GCCcore-8.3.0
+  3) Autotools/20180311-GCCcore-8.3.0    12) bzip2/1.0.8-GCCcore-8.3.0
+  4) CMake/3.15.3-GCCcore-8.3.0          13) cURL/7.66.0-GCCcore-8.3.0
+  5) GCC/8.3.0                           14) libtool/2.4.6-GCCcore-8.3.0
+  6) GCCcore/8.3.0                       15) libxml2/2.9.9-GCCcore-8.3.0
+  7) M4/1.4.18-GCCcore-8.3.0             16) ncurses/6.1-GCCcore-8.3.0
+  8) PCRE/8.43-GCCcore-8.3.0             17) zlib/1.2.11-GCCcore-8.3.0
+  9) SWIG/4.0.1-GCCcore-8.3.0
+
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            gpu14
+  Device name:           mlx5_1
+  Device vendor ID:      0x02c9
+  Device vendor part ID: 4123
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   gpu14
+  Local device: mlx5_1
+--------------------------------------------------------------------------
+[gpu14:09050] 3 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[gpu14:09050] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[gpu14:09050] 3 more processes have sent help message help-mpi-btl-openib.txt / error in device init

@@ -1,0 +1,13 @@
+Rank=1, Used memory is 2.644531 GB
+Rank=2, Used memory is 2.644287 GB
+Rank=3, Used memory is 2.644287 GB
+Each GPU holds 104857600 elements of the vector
+Rank=0, Used memory is 3.835938 GB
+Rank 3: Time to add vectors is 0.314797 secs
+Rank 0: Time to add vectors is 0.316672 secs
+Rank 1: Time to add vectors is 0.326965 secs
+Rank 2: Time to add vectors is 0.322260 secs
+Rank 3: Total difference is = 0.000000
+Rank 2: Total difference is = 0.000000
+Rank 1: Total difference is = 0.000000
+Rank 0: Total difference is = 0.000000
