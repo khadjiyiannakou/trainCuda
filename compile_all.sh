@@ -1,3 +1,4 @@
+export PATH=/nvme/h/khadjiyiannakou/scratch/frensh_install/anaconda/bin:${PATH}
 module purge
 module load Autotools/20180311-GCCcore-8.3.0
 module load CMake/3.15.3-GCCcore-8.3.0
